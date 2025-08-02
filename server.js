@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 const PORT = process.env.PORT;
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://portfolio-react-js-ofs4.onrender.com ' , 'https://premkumar-portfolio-site.netlify.app/'], 
+  origin: ['https://premkumar-portfolio-site.netlify.app', 'https://portfolio-react-js-ofs4.onrender.com ' ], 
   methods: ['GET', 'POST'],
   credentials: true
 }));
