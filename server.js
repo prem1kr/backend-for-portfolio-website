@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 const PORT = process.env.PORT;
 app.use(cors({
-  origin: ['https://premkumar-portfolio-site.netlify.app', 'https://portfolio-react-js-ofs4.onrender.com ' ], 
+  origin: ['https://premkumar-portfolio-site.netlify.app', 'https://portfolio-react-js-ofs4.onrender.com' , 'https://pk-portfolio-sit.netlify.app' ], 
   methods: ['GET', 'POST'],
   credentials: true
 }));
